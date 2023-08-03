@@ -17,7 +17,7 @@ export interface LayoutProps {
 
 export default function RootLayout({ children }: LayoutProps) {
   return (
-    <html lang="en">
+    <html lang="en" className="antialiased">
       <body className={inter.className}>
         <div className="grid min-h-screen grid-cols-app">
           <Sidebar />
